@@ -1,0 +1,166 @@
+﻿@media only screen and (min-width:768px){
+    .titleofpage{
+        height:81px;
+     }
+    .title{
+        margin-left:15%;
+        padding-top:25px;
+    }
+    .fbmobile{
+        display:none;
+    }
+    .bodypage{
+        height:324px;
+        width:614px;
+    }
+    #b2{
+        height:44px;
+        width:302px;
+    }
+    #b3{
+        height:30px;
+        width:304px;
+    }
+    .InputType{
+        height:34px;
+        width:302px;
+    }
+    .FooterClass{
+        width:100%;
+        height:250px;
+        bottom:0;
+        position: relative;
+    }
+    .FooterContent{
+        margin-left:auto;
+        margin-right:auto;
+        width: 80%;
+        height:auto;
+        padding-top:85px;
+    }
+}
+@media only screen and (max-width:768px){
+    .titleofpage{
+        height:55px;
+    }
+    .title{
+        display:none;
+    }
+    .InputType{
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #b3{
+        display:none;
+    }
+    #b2{
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .fbmobile{
+        display:block;
+        font-family:"Lucia Grande","Roboto","Tahoma","Helvetica Neue",sans-serif;
+        font-size:2.3em;
+        text-align:center;
+    }
+}
+br{
+    display:block;
+    content:"";
+    margin-top:10px;
+}
+hr{
+   display:block;
+   margin-top:0em;
+   margin-bottom:0em;
+   border-width:0.5px;
+}
+h5{
+    margin-bottom:0.5em;
+}
+h6{
+    margin-top:1em;
+}
+.BREAK{
+    margin-top:70px;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.titleofpage
+{
+background-color:rgb(59,89,152);
+color: white;
+width:100%;
+
+}
+.title{
+    font-family:"Lucia Grande","Roboto","Tahoma","Helvetica Neue",sans-serif;
+    font-size:2.3em;
+}
+.signbutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight:bold;
+}
+.bodypage{
+    background-color: white;
+    margin: auto;
+    font-family: "Arial","Helvetica",sans-serif;
+}
+#b2:hover{
+    cursor:pointer;
+    background-color:rgb(41, 65, 113); 
+}
+#b3:hover{
+    cursor:pointer;
+    background-color:rgb(215, 215, 215);
+}
+.FooterClass{
+    background-color:white;
+}
+.Loginheader{
+    padding-top:30px;
+}
+#b2{
+    background-color:rgb(63, 94, 162); 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#b3{
+    padding: 10px 20px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    border: 5px black;
+    margin: 0; 
+    background-color:rgb(233, 233, 233);
+}
+.FooterContent{
+    word-spacing: 1em;
+}
+html,body {
+    background-color:  #e9ebee;
+    margin:0;
+    padding:0;
+}
+
+
+
+
